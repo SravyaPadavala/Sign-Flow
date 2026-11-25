@@ -1,0 +1,47 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 3.6453,
+    "val_wer": 45.31,
+    "detection_rate": 45.49,
+    "Substitution_Rate": 18.13,
+    "Deletion_Rate": 22.66,
+    "Insertion_Rate": 4.53
+  },
+  {
+    "epoch": 2,
+    "train_loss": 3.1217,
+    "val_wer": 38.38,
+    "detection_rate": 53.26,
+    "Substitution_Rate": 15.35,
+    "Deletion_Rate": 19.19,
+    "Insertion_Rate": 3.84
+  },
+  {
+    "epoch": 3,
+    "train_loss": 2.4902,
+    "val_wer": 31.12,
+    "detection_rate": 60.25,
+    "Substitution_Rate": 12.45,
+    "Deletion_Rate": 15.56,
+    "Insertion_Rate": 3.11
+  },
+  {
+    "epoch": 4,
+    "train_loss": 1.9344,
+    "val_wer": 25.37,
+    "detection_rate": 66.79,
+    "Substitution_Rate": 10.15,
+    "Deletion_Rate": 12.69,
+    "Insertion_Rate": 2.54
+  },
+  {
+    "epoch": 5,
+    "train_loss": 1.279,
+    "val_wer": 19.2,
+    "detection_rate": 73.0,
+    "Substitution_Rate": 7.68,
+    "Deletion_Rate": 9.6,
+    "Insertion_Rate": 1.92
+  }
+]

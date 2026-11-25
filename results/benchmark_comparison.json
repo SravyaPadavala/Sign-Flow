@@ -1,0 +1,118 @@
+{
+  "Base Paper: SignFlow (No Pos-Enc)": {
+    "Test_Set_1_InVocab": {
+      "WER": 26.83,
+      "Detection_Rate": 78.0,
+      "Substitution_Rate": 21.95,
+      "Deletion_Rate": 0.0,
+      "Insertion_Rate": 4.88,
+      "Total_Reference_Words": 41,
+      "Correct_Words": 32
+    },
+    "Test_Set_2_OOV_Fast": {
+      "WER": 26.67,
+      "Detection_Rate": 73.62,
+      "Substitution_Rate": 6.67,
+      "Deletion_Rate": 20.0,
+      "Insertion_Rate": 0.0,
+      "Total_Reference_Words": 30,
+      "Correct_Words": 22
+    },
+    "Combined_Overall": {
+      "WER": 26.76,
+      "Detection_Rate": 76.54,
+      "Substitution_Rate": 15.49,
+      "Deletion_Rate": 8.45,
+      "Insertion_Rate": 2.82,
+      "Total_Reference_Words": 71,
+      "Correct_Words": 54
+    }
+  },
+  "Base Paper: SignFlow (With Pos-Enc)": {
+    "Test_Set_1_InVocab": {
+      "WER": 2.44,
+      "Detection_Rate": 97.5,
+      "Substitution_Rate": 2.44,
+      "Deletion_Rate": 0.0,
+      "Insertion_Rate": 0.0,
+      "Total_Reference_Words": 41,
+      "Correct_Words": 40
+    },
+    "Test_Set_2_OOV_Fast": {
+      "WER": 36.67,
+      "Detection_Rate": 65.05,
+      "Substitution_Rate": 6.67,
+      "Deletion_Rate": 30.0,
+      "Insertion_Rate": 0.0,
+      "Total_Reference_Words": 30,
+      "Correct_Words": 19
+    },
+    "Combined_Overall": {
+      "WER": 16.9,
+      "Detection_Rate": 86.68,
+      "Substitution_Rate": 4.23,
+      "Deletion_Rate": 12.68,
+      "Insertion_Rate": 0.0,
+      "Total_Reference_Words": 71,
+      "Correct_Words": 59
+    }
+  },
+  "Proposed Ablation: Conformer + MSTC": {
+    "Test_Set_1_InVocab": {
+      "WER": 14.63,
+      "Detection_Rate": 85.0,
+      "Substitution_Rate": 14.63,
+      "Deletion_Rate": 0.0,
+      "Insertion_Rate": 0.0,
+      "Total_Reference_Words": 41,
+      "Correct_Words": 35
+    },
+    "Test_Set_2_OOV_Fast": {
+      "WER": 26.67,
+      "Detection_Rate": 71.81,
+      "Substitution_Rate": 10.0,
+      "Deletion_Rate": 16.67,
+      "Insertion_Rate": 0.0,
+      "Total_Reference_Words": 30,
+      "Correct_Words": 22
+    },
+    "Combined_Overall": {
+      "WER": 19.72,
+      "Detection_Rate": 80.6,
+      "Substitution_Rate": 12.68,
+      "Deletion_Rate": 7.04,
+      "Insertion_Rate": 0.0,
+      "Total_Reference_Words": 71,
+      "Correct_Words": 57
+    }
+  },
+  "Proposed Full: SignFlow++ (Dual-Stream + VAC + Conformer)": {
+    "Test_Set_1_InVocab": {
+      "WER": 0.0,
+      "Detection_Rate": 100.0,
+      "Substitution_Rate": 0.0,
+      "Deletion_Rate": 0.0,
+      "Insertion_Rate": 0.0,
+      "Total_Reference_Words": 41,
+      "Correct_Words": 41
+    },
+    "Test_Set_2_OOV_Fast": {
+      "WER": 10.0,
+      "Detection_Rate": 90.0,
+      "Substitution_Rate": 6.67,
+      "Deletion_Rate": 3.33,
+      "Insertion_Rate": 0.0,
+      "Total_Reference_Words": 30,
+      "Correct_Words": 27
+    },
+    "Combined_Overall": {
+      "WER": 4.23,
+      "Detection_Rate": 96.67,
+      "Substitution_Rate": 2.82,
+      "Deletion_Rate": 1.41,
+      "Insertion_Rate": 0.0,
+      "Total_Reference_Words": 71,
+      "Correct_Words": 68
+    }
+  }
+}
